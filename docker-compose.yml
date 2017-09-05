@@ -1,0 +1,8 @@
+api:
+  build: api/
+  ports:
+    - "8081:80"
+  volumes:
+    - ./api/code/php/:/data/www
+  environment:
+    - PROXY_DOMAIN=api.letsgo.local
