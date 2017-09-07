@@ -1,0 +1,6 @@
+api:
+  image: momokeith/letsgo
+  ports:
+    - "8080:80"
+  environment:
+    - PROXY_DOMAIN=api.letsgo.kfina.net
